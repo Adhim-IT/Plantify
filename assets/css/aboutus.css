@@ -24,52 +24,52 @@ body {
 
 /* hero section style */
 
-main #hero-section{
+main #hero-section {
     height: max-content;
     padding: 100px 0;
     display: flex;
     align-items: center;
-} 
+}
 
 main #hero-section .container .row div:first-child img,
 main #superiority-section .container .row div:first-child img,
 main #our-achievements .container img,
-main #founder-plantify-section .container .bintang
-{
+main #founder-plantify-section .container .bintang {
     width: 52px;
     position: relative;
     right: 12px;
-} 
+}
 
-main #hero-section .container .row div:first-child h1{
+main #hero-section .container .row div:first-child h1 {
     color: white;
     font-weight: 600;
-} 
+}
 
 main #hero-section .container .row div:first-child .row div .card {
     background-color: var(--eerie-black);
     border: 2px solid var(--dark-grey);
     width: 100%;
-} 
+}
 
 main #hero-section .container .row div:first-child .row div .card .card-body h1.card-title {
     font-size: 28px;
-} 
+}
 
 main #hero-section .container .row div:first-child .row div .card .card-body p.card-subtitle {
     color: var(--light-gray) !important;
-} 
+}
 
-main #hero-section .container .row div:last-child img{
+main #hero-section .container .row div:last-child img {
     border-radius: 10px;
     border: 2px solid var(--dark-grey);
-} 
+}
+
 /* end hero section style */
 
 
 /* keunggulan section style*/
 
-main #superiority-section{
+main #superiority-section {
     height: max-content;
     padding: 100px 0;
     display: flex;
@@ -80,7 +80,7 @@ main #superiority-section .container .row .col-md-5 {
     width: 38%;
 }
 
-main #superiority-section .container .row div:first-child h1{
+main #superiority-section .container .row div:first-child h1 {
     color: white;
     font-weight: 600;
 }
@@ -93,28 +93,29 @@ main #superiority-section .container .row div:last-child.shadow {
 }
 
 
-main #superiority-section .container .row div:last-child .row div .title-group{
+main #superiority-section .container .row div:last-child .row div .title-group {
     margin-left: 12px;
 }
 
-main #superiority-section .container .row div:last-child .row div .title-group img{
+main #superiority-section .container .row div:last-child .row div .title-group img {
     width: 38px;
 }
 
-main #superiority-section .container .row div:last-child .row div .title-group h5{
+main #superiority-section .container .row div:last-child .row div .title-group h5 {
     font-size: 20px;
     font-weight: 600;
     color: white;
 }
 
-main #superiority-section .container .row div:last-child .row div p{
+main #superiority-section .container .row div:last-child .row div p {
     font-size: 14px;
 }
+
 /* end keunggulan section style*/
 
 /* pencapaian section style*/
 
-main #our-achievements  {
+main #our-achievements {
     height: max-content;
     padding: 100px 0;
     display: flex;
@@ -126,7 +127,7 @@ main #our-achievements .container h1.title {
     font-weight: 600;
 }
 
-main #our-achievements .container .row div .card{
+main #our-achievements .container .row div .card {
     background-color: var(--charcoal-black);
     padding: 10px 14px;
     height: 200px;
@@ -148,6 +149,7 @@ main #our-achievements .container .row div .card .card-body h1.card-title {
     color: white !important;
     font-size: 22px;
 }
+
 main #our-achievements .container .row div .card .card-body p.card-subtitle {
     color: var(--light-gray);
     font-size: 14px;
@@ -184,42 +186,42 @@ main #founder-plantify-section {
     padding: 100px 0;
 }
 
-main #founder-plantify-section .container h1{
+main #founder-plantify-section .container h1 {
     color: white;
     font-weight: 600;
-} 
+}
 
-main #founder-plantify-section .container .row .col-lg-4 .card{
+main #founder-plantify-section .container .row .col-lg-4 .card {
     background-color: var(--charcoal-black) !important;
     border: 1px solid var(--dark-grey) !important;
-} 
+}
 
-main #founder-plantify-section .container .row .col-lg-4 .card .img-ig{
+main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
     width: 40px;
     position: absolute;
-    left: 50%; 
-    transform: translateX(-45%); 
+    left: 50%;
+    transform: translateX(-45%);
     top: 175px;
-} 
+}
 
 main #founder-plantify-section .container .row .col-lg-4 .card .card-body h5 {
     color: white !important;
     font-weight: 600;
-} 
+}
 
-main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message  {
+main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
     background-color: var(--eerie-black);
     border: 2px solid var(--charcoal-black);
     padding: 10px;
     border-radius: 60px;
-} 
+}
 
 main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button.btn-primary {
     border-radius: 50px !important;
     background-color: var(--green-matcha) !important;
     border: none;
     padding: 10px 10px;
-} 
+}
 
 main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message input {
     width: 80%;
@@ -228,30 +230,28 @@ main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form
     outline: none;
     border: none;
     padding-left: 10px;
-} 
+}
 
 
 footer {
     padding-top: 100px;
 }
 
-footer .content-footer .container .row div:first-child .logo-plantify h1{
+footer .content-footer .container .row div:first-child .logo-plantify h1 {
     font-size: 28px;
     padding-left: 10px !important;
     color: white;
     font-weight: 600;
 }
 
-footer .content-footer .container .row div:first-child .send-feedback 
-{
+footer .content-footer .container .row div:first-child .send-feedback {
     background-color: var(--charcoal-black);
     border: 1px solid var(--dark-grey);
     height: max-content !important;
 }
 
 footer .content-footer .container .row div:first-child .send-feedback form div span,
-footer .content-footer .container .row div:first-child .send-feedback form div input
-{
+footer .content-footer .container .row div:first-child .send-feedback form div input {
     background-color: transparent;
     border: none;
     outline: none;
@@ -259,8 +259,7 @@ footer .content-footer .container .row div:first-child .send-feedback form div i
 }
 
 footer .content-footer .container .row div:first-child .send-feedback form div input::placeholder,
-footer .content-footer .container .row div:first-child .send-feedback form div input
-{
+footer .content-footer .container .row div:first-child .send-feedback form div input {
     color: var(--light-gray) !important;
 }
 
@@ -276,4 +275,302 @@ footer .copyright {
 
 footer .copyright .container .row .col-6 p {
     color: white;
+}
+
+
+
+/*  hp */
+@media screen and (max-width: 479px) {
+
+    main #hero-section,
+    main #superiority-section,
+    main #our-achievements,
+    main #join-plantify-section {
+        padding: 32px !important;
+    }
+
+    footer {
+        padding-top: 80px !important;
+    }
+
+    footer .content-footer,
+    footer .copyright {
+        padding: 32px !important;
+    }
+
+    main #founder-plantify-section {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+        padding-top: 32px !important;
+        padding-bottom: 90px !important;
+
+    }
+
+    main #hero-section .container .row div:first-child h1,
+    main #superiority-section .container .row div:first-child h1,
+    main #our-achievements .container h1.title,
+    main #founder-plantify-section .container h1,
+    main #join-plantify-section .container .row div:first-child h1.title {
+        font-size: 26px !important;
+    }
+
+    main #hero-section .container .row div:first-child img,
+    main #superiority-section .container .row div:first-child img,
+    main #our-achievements .container img,
+    main #founder-plantify-section .container .bintang {
+        width: 42px;
+        right: 12px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card {
+        height: 360px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        position: relative;
+        z-index: 999;
+        left: 50%;
+        transform: translateX(-45%);
+        top: -44px;
+        width: 28px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-header {
+        padding: 30px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-body {
+        position: relative;
+        top: -44px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer {
+        position: relative;
+        top: -52px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
+        padding: 6px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    footer .content-footer .container .row .col-8 {
+        width: 80%;
+    }
+
+    footer .copyright .container .row {
+        display: block;
+    }
+
+    footer .copyright .container .row .col-6{
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+    }
+    footer .copyright .container .row .col-6:last-child {
+        margin-top: 1rem;
+    }
+
+
+}
+
+/* semi hp */
+@media screen and (min-width: 480px) and (max-width: 575px) {
+
+    main #hero-section,
+    main #superiority-section,
+    main #our-achievements,
+    main #join-plantify-section {
+        padding: 32px !important;
+    }
+
+    footer {
+        padding-top: 80px !important;
+    }
+
+    footer .content-footer,
+    footer .copyright {
+        padding: 32px !important;
+    }
+
+    main #founder-plantify-section {
+        padding-left: 32px !important;
+        padding-right: 32px !important;
+        padding-top: 32px !important;
+        padding-bottom: 90px !important;
+
+    }
+
+    main #hero-section .container .row div:first-child h1,
+    main #superiority-section .container .row div:first-child h1,
+    main #our-achievements .container h1.title,
+    main #founder-plantify-section .container h1,
+    main #join-plantify-section .container .row div:first-child h1.title {
+        font-size: 26px !important;
+    }
+
+    main #hero-section .container .row div:first-child img,
+    main #superiority-section .container .row div:first-child img,
+    main #our-achievements .container img,
+    main #founder-plantify-section .container .bintang {
+        width: 42px;
+        right: 12px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card {
+        height: 40vmax;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        width: 36px;
+        position: relative;
+        z-index: 999;
+        left: 50%;
+        transform: translateX(-45%);
+        top: -50px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-header {
+        padding: 30px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-body {
+        position: relative;
+        top: -44px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer {
+        position: relative;
+        top: -52px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
+        padding: 6px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    main #hero-section,
+    main #superiority-section,
+    main #our-achievements {
+        padding: 50px !important;
+    }
+
+    main #founder-plantify-section {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        width: 50px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-45%);
+        top: 206px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-header {
+        padding: 30px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
+        padding: 6px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+}
+
+/* semi ipad */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    main #hero-section,
+    main #superiority-section,
+    main #our-achievements {
+        padding: 50px !important;
+    }
+
+    main #founder-plantify-section {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        width: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-45%);
+        top: 162px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
+        padding: 6px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+}
+
+/* semi ipad */
+@media screen and (min-width: 993px) and (max-width: 1199px) {
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        width: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-45%);
+        top: 140px;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
+        padding: 6px !important;
+    }
+
+    main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message button img {
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+}
+
+/* dekstop mode */
+@media screen and (min-width: 1400px) {
+    main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
+        width: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-45%);
+        top: 204px;
+    }
 }
