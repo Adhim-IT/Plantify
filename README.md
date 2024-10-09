@@ -1,6 +1,6 @@
 # AgriTech Telkom
 `1. Bintang Azka (UI/UX Designer)`
-br
+<br>
 `2. Vebrian Nikola Saputra (Frontend Developer)`
-br
+<br>
 `3. Alamsyah Adhim Nugraha (Frontend Developer)`
