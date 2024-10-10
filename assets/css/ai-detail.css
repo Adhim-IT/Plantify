@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --charcoal-black: #141414;
+    --light-gray: #999999;
+    --dark-grey: #262626;
+    --eerie-black: #1A1A1A;
+    --green-matcha: #6F9827;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--light-gray);
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+
+body {
+    background-color: var(--charcoal-black) !important;
+}
+
+
+/* hero section */
+
+#hero-carousel-section {
+    padding-top: 100px;
+    height: max-content;
+}
+
+#hero-carousel-section .container .title-group .title-location h1.title {
+    font-weight: 600;
+    color: white;
+    font-size: 28px;
+}
+
+#hero-carousel-section .container .title-group .title-location .location {
+    border: 1px solid var(--dark-grey);
+    background-color: var(--charcoal-black);
+    padding: 2px 8px !important;
+    border-radius: 4px;
+    margin-top: 10px !important;
+}
+
+#hero-carousel-section .container .title-group .title-location .location p {
+    font-weight: 500;
+    color: white;
+}
+
+#hero-carousel-section .container .slider-carousel {
+    background-color: var(--charcoal-black);
+    border: 2px solid var(--dark-grey) !important;
+    height: max-content;
+    padding: 40px 16px !important;
+    margin-top: 60px;
+
+}
+
+#hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+    width: 500px;
+    /* Ensures the image width is 500px */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+
+
+
+
+
+#description-product-section {
+    padding-bottom: 100px;
+    margin-top: 40px;
+    height: max-content;
+}
+
+#description-product-section .container .row .col-lg-6 .content {
+    border: 1px solid var(--dark-grey);
+    background-color: var(--charcoal-black);
+    padding: 40px;
+}
+
+
+#description-product-section .container .row .col-lg-6:first-child .content h5,
+#description-product-section .container .row .col-lg-6:last-child .content h5 {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+#description-product-section .container .row .col-lg-6:first-child .content p.subtitle {
+    margin-top: 1rem !important;
+    font-size: 16px;
+    padding-bottom: 40px !important;
+    border-bottom: 2px solid var(--dark-grey);
+}
+
+#description-product-section .container .row .col-lg-6:first-child .content .row .col-lg-4 p.harga {
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#description-product-section .container .row .col-lg-6:last-child .content .row .col-lg-12 {
+
+    padding: 10px;
+    border-left: 2px solid var(--green-matcha);
+    background: linear-gradient(to left, #1A1A1A00, #1A1A1A);
+    margin-bottom: 20px !important;
+}
+
+/* end deskripsi */
+
+
+/* section modal  */
+
+main #modal-section {
+    padding: 100px 0 !important;
+    height: max-content;
+}
+
+main #modal-section .container .bintang {
+    width: 52px;
+    position: relative;
+    right: 12px;
+}
+
+main #modal-section .container h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+/* join plantify section style*/
+main #join-plantify-section {
+    height: max-content;
+    padding: 40px 0;
+    background-image: url(../img/bg-images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #join-plantify-section .container .row div:first-child h1.title {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 36px;
+}
+
+main #join-plantify-section .container .row div:last-child a.btn-primary {
+    background-color: var(--green-matcha) !important;
+    border: 2px solid var(--green-matcha);
+}
+
+main #modal-section .container .noted-group {
+    border: 1px solid var(--dark-grey);
+    background-color: var(--eerie-black);
+    padding: 24px !important;
+    border-radius: 8px;
+    margin-top: 66px !important;
+}
+
+main #modal-section .container .noted-group h5 {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    border-right: 2px solid var(--dark-grey);
+    padding-right: 10px !important;
+}
+
+main #modal-section .container .noted-group p {
+    padding-left: 10px !important;
+}
+
+
+main #modal-section .container .row .col-lg-2 h5 {
+    color: white;
+    font-size: 22px;
+    margin-top: 6px !important;
+
+}
+
+main #modal-section .container .row .col-lg-10 .content-aloka-modal,
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain {
+    border: 1px solid var(--dark-grey);
+    background-color: var(--charcoal-black);
+    padding: 40px !important;
+    border-radius: 8px;
+
+}
+
+
+main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group,
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group {
+    border-bottom: 2px solid var(--dark-grey);
+    padding-bottom: 30px !important;
+}
+
+main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group p,
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group p {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group a.btn-primary,
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group a.btn-primary {
+    font-size: 16px !important;
+    background-color: var(--eerie-black) !important;
+    border: 2px solid var(--dark-grey) !important;
+    font-weight: 500;
+}
+
+
+.border-l {
+    border-right: 2px solid var(--dark-grey);
+}
+
+.border-b {
+    border-bottom: 2px solid var(--dark-grey);
+}
+
+main #modal-section .container .row .col-lg-10 .content-aloka-modal .row .col-lg-6 h5,
+main #modal-section .container .row .col-lg-10 .content-aloka-modal .col-lg-12 h5,
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .col-lg-12 h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px !important;
+}
+
+main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+    background-color: var(--eerie-black);
+    border: 2px solid var(--dark-grey);
+    border-radius: 20px !important;
+    color: var(--light-gray);
+}
+
+footer {
+    padding-top: 100px;
+}
+
+footer .content-footer .container .row div:first-child .logo-plantify h1 {
+    font-size: 28px;
+    padding-left: 10px !important;
+    color: white;
+    font-weight: 600;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback {
+    background-color: var(--charcoal-black);
+    border: 1px solid var(--dark-grey);
+    height: max-content !important;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback form div span,
+footer .content-footer .container .row div:first-child .send-feedback form div input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback form div input::placeholder,
+footer .content-footer .container .row div:first-child .send-feedback form div input {
+    color: var(--light-gray) !important;
+}
+
+footer .content-footer .container .row div:last-child .row .col-lg-2 p {
+    color: white !important;
+}
+
+footer .copyright {
+    background-color: var(--eerie-black);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer .copyright .container .row .col-6 p {
+    color: white;
+}
