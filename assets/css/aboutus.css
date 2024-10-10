@@ -158,28 +158,6 @@ main #our-achievements .container .row div .card .card-body p.card-subtitle {
 
 /* end pencapaian section style*/
 
-/* join plantify section style*/
-main #join-plantify-section {
-    height: max-content;
-    padding: 40px 0;
-    background-image: url(../img/bg-images.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-main #join-plantify-section .container .row div:first-child h1.title {
-    color: white !important;
-    font-weight: 600 !important;
-    font-size: 36px;
-}
-
-main #join-plantify-section .container .row div:last-child a.btn-primary {
-    background-color: var(--green-matcha) !important;
-    border: 2px solid var(--green-matcha);
-}
-
-/* end join plantify section style*/
-
 /* founder plantify section style*/
 main #founder-plantify-section {
     height: max-content;
@@ -232,6 +210,27 @@ main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form
     padding-left: 10px;
 }
 
+/* join plantify section style*/
+main #join-plantify-section {
+    height: max-content;
+    padding: 40px 0;
+    background-image: url(../img/bg-images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #join-plantify-section .container .row div:first-child h1.title {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 36px;
+}
+
+main #join-plantify-section .container .row div:last-child a.btn-primary {
+    background-color: var(--green-matcha) !important;
+    border: 2px solid var(--green-matcha);
+}
+
+/* end join plantify section style*/
 
 footer {
     padding-top: 100px;
