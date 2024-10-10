@@ -291,6 +291,7 @@ body {
   border-radius: 5px;
 }
 
+
 @media (max-width: 768px) {
   .testimonial-card .test-card-body {
     margin: auto;
