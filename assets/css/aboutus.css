@@ -75,7 +75,7 @@ body {
     height: 45px;
     border-radius: 10px;
   }
-  .contact-button:hover {
+.contact-button:hover {
     background-color: var(--green-matcha);
     color: white;
     border-color: #6c757d;
