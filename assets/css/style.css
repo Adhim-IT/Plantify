@@ -83,12 +83,13 @@ body {
   margin-right: 10rem;
   margin-left: 0;
   background: #141414;
-  height: 45px;
+  height: 40px;
   border-radius: 10px;
 }
 .contact-button:hover {
   background-color: var(--green-matcha);
   color: white;
+  
   border-color: #6c757d;
   transition: all 0.3s ease;
 }
