@@ -70,8 +70,9 @@ body {
     background: #141414;
     height: 40px;
     border-radius: 10px;
+    border-color: var(--light-gray);
   }
-  .contact-button:hover {
+  .contact-button:hover{
     background-color: var(--green-matcha);
     color: white;
     border-color: #6c757d;
