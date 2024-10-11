@@ -94,6 +94,13 @@ body {
 .navbar a.btn {
   height: 75px;
 }
+.icon {
+  font-size: 40px;
+}
+.icon img{
+  width: 40px;
+  height: 40px;
+}
 
 .navbar .navbar-nav .nav-link {
   color: var(--light);
@@ -139,12 +146,17 @@ body {
     border-top: 1px solid #eeeeee;
   }
   .icon {
-    margin-right: auto;
+    font-size: 30px;
+  }
+  .icon img{
+    width: 30px;
+    height: 30px;
   }
   .contact-button {
-    margin-right: 0;
-    margin-left: 0;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    margin-bottom: 10px;
   }
 }
 
@@ -475,7 +487,20 @@ footer .content-footer .container .row div:first-child .send-feedback {
   border: 1px solid var(--dark-grey);
   height: max-content !important;
 }
-
+@media (max-width: 991.98px) {
+  footer .content-footer .container .row div:first-child .logo-plantify h1 {
+    font-size: 20px;
+    padding-left: 10px !important;
+    color: white;
+    font-weight: 600;
+  }
+  footer .content-footer .container .row div:first-child .logo-plantify img {
+    width: 40px;
+    height: 30px;
+    padding-left: 10px;
+    
+  }
+}
 footer
   .content-footer
   .container

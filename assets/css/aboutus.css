@@ -32,7 +32,7 @@ body {
     z-index: 99;
 }
 
-/*** Navbar ***/
+/* Navbar */
 .navbar .navbar-nav {
   display: flex;
   gap: 15px; 
@@ -51,7 +51,7 @@ body {
   white-space: nowrap;
 }
 
-.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover, 
 .navbar .navbar-nav .nav-link.active {
     background-color: #141414;
     color: white;
@@ -131,13 +131,12 @@ body {
     .icon {
         margin-right: auto;
     }
-
     .contact-button {
-        margin-right: 0;
-        margin-left: 0;
-        justify-content: center;
-
-    }
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        margin-bottom: 10px;
+      }
 }
 
 /* hero section style */

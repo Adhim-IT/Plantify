@@ -127,9 +127,10 @@ body {
     margin-right: auto;
   }
   .contact-button {
-    margin-right: 0;
-    margin-left: 0;
-    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    margin-bottom: 10px;
   }
 }
 
