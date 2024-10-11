@@ -46,21 +46,20 @@ body {
 }
 
 /*** Navbar ***/
+/*** Navbar ***/
 .navbar .navbar-nav {
   display: flex;
-  margin-right: 1px;
   gap: 15px; 
 }
-
 .navbar .navbar-nav .nav-link {
-  padding: 10px 15px !important;
+  padding: 10px 15px; 
   color: #ffffff;
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   transition: background-color 0.3s, color 0.3s;
   border-radius: 5px;
-  border: 2px solid transparent;
+  border: 2px solid transparent; 
 }
 .nav-item {
   white-space: nowrap;
@@ -71,9 +70,30 @@ body {
   background-color: #141414;
   color: white;
   transition: background-color 0.3s, color 0.3s;
-  border: 2px solid var(--light-gray);
+  border: 2px solid var(--text-clr);
 }
 
+.contact-button {
+  display: flex;
+  justify-content: center;
+  margin-right: 10rem;
+  margin-left: 0;
+  background: #141414;
+  height: 40px;
+  border-radius: 10px;
+}
+.contact-button:hover {
+  background-color: var(--green-matcha);
+  color: white;
+  
+  border-color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+  height: 75px;
+}
 .icon {
   font-size: 40px;
 }
@@ -82,31 +102,10 @@ body {
   height: 40px;
 }
 
-.contact-button {
-    display: flex;
-    justify-content: center;
-    margin-right: 10rem;
-    margin-left: auto;
-    background: #141414;
-    height: 40px;
-    border-radius: 10px;
-    border-color: var(--light-gray);
-  }
-  .contact-button:hover{
-    background-color: var(--green-matcha);
-    color: white;
-    border-color: #6c757d;
-    transition: all 0.3s ease;
-  }
-
-.navbar .navbar-brand,
-.navbar a.btn {
-  height: 75px;
-}
-
 .navbar .navbar-nav .nav-link {
   color: var(--light);
   font-weight: 500;
+  margin-right: 0;
 }
 
 .navbar.sticky-top {
@@ -160,7 +159,6 @@ body {
     margin-bottom: 10px;
   }
 }
-
 /* heading */
 .heading {
     height: 55vh;
@@ -529,7 +527,6 @@ footer .content-footer .container .row div:first-child .send-feedback {
   border: 1px solid var(--dark-grey);
   height: max-content !important;
 }
-
 @media (max-width: 991.98px) {
   footer .content-footer .container .row div:first-child .logo-plantify h1 {
     font-size: 20px;
@@ -544,7 +541,6 @@ footer .content-footer .container .row div:first-child .send-feedback {
     
   }
 }
-
 footer
   .content-footer
   .container

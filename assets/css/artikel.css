@@ -32,7 +32,7 @@ body {
 }
 
 /*** Navbar ***/
-
+/*** Navbar ***/
 .navbar .navbar-nav {
   display: flex;
   gap: 15px; 
@@ -53,11 +53,10 @@ body {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    background-color: #141414;
-    color: white;
-    transition: background-color 0.3s, color 0.3s;
-    border: 2px solid var(--light-gray);
-    
+  background-color: #141414;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  border: 2px solid var(--text-clr);
 }
 
 .contact-button {
@@ -72,6 +71,7 @@ body {
 .contact-button:hover {
   background-color: var(--green-matcha);
   color: white;
+  
   border-color: #6c757d;
   transition: all 0.3s ease;
 }
@@ -80,10 +80,18 @@ body {
 .navbar a.btn {
   height: 75px;
 }
+.icon {
+  font-size: 40px;
+}
+.icon img{
+  width: 40px;
+  height: 40px;
+}
 
 .navbar .navbar-nav .nav-link {
   color: var(--light);
   font-weight: 500;
+  margin-right: 0;
 }
 
 .navbar.sticky-top {
@@ -124,7 +132,11 @@ body {
     border-top: 1px solid #eeeeee;
   }
   .icon {
-    margin-right: auto;
+    font-size: 30px;
+  }
+  .icon img{
+    width: 30px;
+    height: 30px;
   }
   .contact-button {
     margin-right: auto;
@@ -575,7 +587,20 @@ footer .content-footer .container .row div:first-child .send-feedback {
   border: 1px solid var(--dark-grey);
   height: max-content !important;
 }
-
+@media (max-width: 991.98px) {
+  footer .content-footer .container .row div:first-child .logo-plantify h1 {
+    font-size: 20px;
+    padding-left: 10px !important;
+    color: white;
+    font-weight: 600;
+  }
+  footer .content-footer .container .row div:first-child .logo-plantify img {
+    width: 40px;
+    height: 30px;
+    padding-left: 10px;
+    
+  }
+}
 footer
   .content-footer
   .container
