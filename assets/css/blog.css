@@ -46,7 +46,6 @@ body {
 }
 
 /*** Navbar ***/
-/*** Navbar ***/
 .navbar .navbar-nav {
   display: flex;
   gap: 15px; 
@@ -70,7 +69,7 @@ body {
   background-color: #141414;
   color: white;
   transition: background-color 0.3s, color 0.3s;
-  border: 2px solid var(--text-clr);
+  border: 2px solid var(--light-gray);
 }
 
 .contact-button {
@@ -358,6 +357,30 @@ body {
     
 }
 
+.list-hide{
+  display: none;
+}
+#description-product-section .list-container1 {
+  border: 2px solid #1A1A1A;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1A1A1A;
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+#description-product-section .list-container1 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: white;
+}
+#description-product-section .list-container1 ul li {
+  color: white;
+  padding: 11px;
+  
+}
+
 
 .scroll-container {
     max-height: 600px; 
@@ -413,6 +436,7 @@ body {
     margin-top: 20px;
     margin-left: 20rem;
 }
+
 #read-more-btn:hover{
     background-color: var(--green-matcha);
     color: white;
@@ -428,10 +452,20 @@ body {
     margin-bottom: 20px !important;
 }
 
+
 @media (max-width: 768px) {
     #read-more-btn{
         margin-left: 100px;
     }
+    .list-hide{
+        display: block;
+    }
+   .list-show{
+    display: none;
+   }
+   .list-container{
+    display: none;
+   }
 }
 
 /* end deskripsi */

@@ -166,7 +166,9 @@ body {
     height: 55px;
     background-color: #262626;
 }
-
+.img2 {
+  display: none;
+}
 .header .btn1:hover {
   background-color: var(--green-matcha);
   color: white;
@@ -190,10 +192,17 @@ body {
 
 
 
+
 @media (max-width: 1200px) {
   
   .image-container {
     flex-wrap: wrap;
+  }
+  .img2{
+    display: block;
+  }
+  .img1{
+    display: none;
   }
 
   .image-container a {
