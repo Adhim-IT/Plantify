@@ -64,11 +64,6 @@ body {
     /* Maintains aspect ratio */
 }
 
-
-
-
-
-
 #description-product-section {
     padding-bottom: 100px;
     margin-top: 40px;
@@ -173,15 +168,15 @@ main #modal-section .container .noted-group p {
 }
 
 
-main #modal-section .container .row .col-lg-2 h5 {
+main #modal-section .container .row .col-xl-2 h5 {
     color: white;
     font-size: 22px;
     margin-top: 6px !important;
 
 }
 
-main #modal-section .container .row .col-lg-10 .content-aloka-modal,
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain {
+main #modal-section .container .row .col-xl-10 .content-aloka-modal,
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain {
     border: 1px solid var(--dark-grey);
     background-color: var(--charcoal-black);
     padding: 40px !important;
@@ -190,20 +185,20 @@ main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain {
 }
 
 
-main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group,
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group {
+main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group,
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group {
     border-bottom: 2px solid var(--dark-grey);
     padding-bottom: 30px !important;
 }
 
-main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group p,
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group p {
+main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group p,
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group p {
     font-size: 18px !important;
     font-weight: 600;
 }
 
-main #modal-section .container .row .col-lg-10 .content-aloka-modal .title-aloka-group a.btn-primary,
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-aloka-group a.btn-primary {
+main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group a.btn-primary,
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group a.btn-primary {
     font-size: 16px !important;
     background-color: var(--eerie-black) !important;
     border: 2px solid var(--dark-grey) !important;
@@ -219,16 +214,16 @@ main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .title-a
     border-bottom: 2px solid var(--dark-grey);
 }
 
-main #modal-section .container .row .col-lg-10 .content-aloka-modal .row .col-lg-6 h5,
-main #modal-section .container .row .col-lg-10 .content-aloka-modal .col-lg-12 h5,
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .col-lg-12 h5 {
+main #modal-section .container .row .col-xl-10 .content-aloka-modal .row .col-lg-6 h5,
+main #modal-section .container .row .col-xl-10 .content-aloka-modal .col-lg-12 h5,
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 h5 {
     color: white;
     font-size: 20px;
     font-weight: 600;
     margin-top: 8px !important;
 }
 
-main #modal-section .container .row .col-lg-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
     background-color: var(--eerie-black);
     border: 2px solid var(--dark-grey);
     border-radius: 20px !important;
@@ -277,4 +272,277 @@ footer .copyright {
 
 footer .copyright .container .row .col-6 p {
     color: white;
+}
+
+.b-r {
+    border-right: 2px solid #262626;
+}
+
+@media screen and (max-width: 480px) {
+
+    main #hero-carousel-section,
+    main #description-product-section,
+    main #modal-section,
+    main #join-plantify-section {
+        padding: 30px 30px !important;
+        margin: 0 !important;
+    }
+
+    main #hero-carousel-section {
+        padding-bottom: 3rem !important;
+    }
+
+    main #description-product-section {
+        padding-top: 0 !important;
+    }
+
+    #hero-carousel-section .container .title-group .title-location .location p {
+        font-size: 14px;
+    }
+
+
+    main .hero-carousel-section .container .title-group {
+        flex-wrap: wrap;
+    }
+
+    #hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+        width: 90%;
+        height: auto;
+    }
+
+    .border-r-sm,
+    .border-b,
+    .border-l {
+        border: none !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka {
+        flex-wrap: wrap;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+        margin: 0px !important;
+        margin-top: 30px !important;
+        padding: 10px 12px;
+        text-align: left;
+    }
+
+    #hero-carousel-section .container .title-group .title-location h1.title {
+        font-size: 20px;
+    }
+
+    main #modal-section .container h1 {
+        font-size: 24px !important;
+    }
+
+    main .hero-carousel-section .container .title-group .title-modal h5 {
+        font-size: 20px;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group p,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group p {
+        font-size: 18px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group a.btn-primary,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group a.btn-primary {
+        font-size: 14px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 h5,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .row .col-lg-6 h5,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .col-lg-12 h5 {
+        font-size: 16px;
+    }
+
+    #description-product-section .container .row .col-lg-6 .content {
+        padding: 30px !important;
+    }
+
+    #description-product-section .container .row .col-lg-6:last-child .content h5,
+    #description-product-section .container .row .col-lg-6:first-child .content h5 {
+        font-size: 20px;
+    }
+
+    main #modal-section .container .noted-group h5 {
+        font-size: 20px;
+        border: none !important;
+    }
+
+    main #modal-section .container .noted-group {
+        padding: 16px !important;
+        flex-wrap: wrap;
+        margin-top: 3rem !important;
+
+    }
+
+    main #modal-section .container .noted-group p {
+        padding: 0px !important;
+        margin-top: 10px !important;
+    }
+
+    main #modal-section .container .row .col-xl-2 h5 {
+        font-size: 20px;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal, main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain {
+        padding: 20px !important;
+    }
+
+    main #join-plantify-section .container .row div:first-child h1.title {
+        font-size: 24px !important;
+    }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
+    main {
+        padding: 0 30px;
+    }
+
+
+    main .hero-carousel-section .container .title-group {
+        flex-wrap: wrap;
+    }
+
+    #hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+        width: 90%;
+        height: auto;
+    }
+
+    .border-r-sm,
+    .border-b,
+    .border-l {
+        border: none !important;
+    }
+
+    main #modal-section {
+        padding-top: 0px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka {
+        flex-wrap: wrap;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+        margin: 0px !important;
+        margin-top: 30px !important;
+        padding: 10px 12px;
+        text-align: left;
+    }
+
+    #hero-carousel-section .container .title-group .title-location h1.title {
+        font-size: 24px;
+    }
+
+    main #modal-section .container h1 {
+        font-size: 28px !important;
+    }
+
+    main .hero-carousel-section .container .title-group .title-modal h5 {
+        font-size: 22px;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group p,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group p {
+        font-size: 22px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .title-aloka-group a.btn-primary,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .title-aloka-group a.btn-primary {
+        font-size: 20px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 h5,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .row .col-lg-6 h5,
+    main #modal-section .container .row .col-xl-10 .content-aloka-modal .col-lg-12 h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    main .hero-carousel-section .container .title-group {
+        flex-wrap: wrap;
+    }
+
+    #hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+        width: 90%;
+        height: auto;
+    }
+
+    .border-r-sm,
+    .border-b,
+    .border-l {
+        border: none !important;
+    }
+
+    main #modal-section {
+        padding-top: 0px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka {
+        flex-wrap: wrap;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+        margin: 0px !important;
+        margin-top: 30px !important;
+        padding: 10px 12px;
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    main .hero-carousel-section .container .title-group {
+        flex-wrap: wrap;
+    }
+
+    #hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+        width: 90%;
+        height: auto;
+    }
+
+    .border-r-sm,
+    .border-b,
+    .border-l {
+        border: none !important;
+    }
+
+    main #modal-section {
+        padding-top: 0px !important;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka {
+        flex-wrap: wrap;
+    }
+
+    main #modal-section .container .row .col-xl-10 .content-aloka-lain-lain .col-lg-12 .harga-aloka p.btn-primary {
+        margin: 0px !important;
+        margin-top: 30px !important;
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #hero-carousel-section .container .slider-carousel .owl-carousel .item img {
+        width: 400px;
+        height: auto;
+    }
+
+    .border-r-sm {
+        border: none !important;
+    }
+}
+
+.owl-theme .owl-nav {
+    display: none !important;
+}
+
+.owl-theme .owl-dots {
+    display: none !important;
 }

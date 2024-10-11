@@ -7,7 +7,7 @@
     --eerie-black: #1A1A1A;
     --green-matcha: #6F9827;
     --light: #EFF5FF;
-    
+
 }
 
 * {
@@ -31,6 +31,7 @@ body {
     bottom: 45px;
     z-index: 99;
 }
+
 /*** Navbar ***/
 
 
@@ -44,15 +45,16 @@ body {
     outline: none;
     transition: background-color 0.3s, color 0.3s;
 }
-.nav-item{
+
+.nav-item {
     white-space: nowrap;
 }
 
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    background-color:  #141414;
-    color: white; 
+    background-color: #141414;
+    color: white;
     border-radius: 5px;
     margin-top: 1rem;
     height: 0px;
@@ -61,8 +63,8 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    transition:all;
-    
+    transition: all;
+
 }
 
 
@@ -74,13 +76,14 @@ body {
     background: #141414;
     height: 45px;
     border-radius: 10px;
-  }
+}
+
 .contact-button:hover {
     background-color: var(--green-matcha);
     color: white;
     border-color: #6c757d;
     transition: all 0.3s ease;
-  }
+}
 
 .navbar .navbar-brand,
 .navbar a.btn {
@@ -104,7 +107,7 @@ body {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M6 6l18 18M6 24L24 6'/%3E%3C/svg%3E");
-   
+
 }
 
 .navbar-toggler.collapsed .navbar-toggler-icon {
@@ -112,33 +115,38 @@ body {
 }
 
 @media (max-width: 991.98px) {
-    .navbar{
+    .navbar {
         margin: auto;
     }
-    .navbar .navbar-nav .nav-link  {
+
+    .navbar .navbar-nav .nav-link {
         color: white;
         margin-right: 0;
         padding: 10px 0;
     }
+
     .navbar .navbar-nav .nav-link:hover,
     .navbar .navbar-nav .nav-link.active {
         width: 100%;
-        background-color:  #141414;
-       color: white; 
-       border-radius: 5px;
-       height: auto;
+        background-color: #141414;
+        color: white;
+        border-radius: 5px;
+        height: auto;
     }
+
     .navbar .navbar-nav {
         border-top: 1px solid #EEEEEE;
     }
-    .icon{
+
+    .icon {
         margin-right: auto;
     }
-    .contact-button{
-        margin-right: 0; 
+
+    .contact-button {
+        margin-right: 0;
         margin-left: 0;
         justify-content: center;
-        
+
     }
 }
 
@@ -490,11 +498,12 @@ footer .copyright .container .row .col-6 p {
         display: block;
     }
 
-    footer .copyright .container .row .col-6{
+    footer .copyright .container .row .col-6 {
         width: 100%;
         display: flex;
         justify-content: center !important;
     }
+
     footer .copyright .container .row .col-6:last-child {
         margin-top: 1rem;
     }

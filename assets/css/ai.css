@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --charcoal-black: #141414;
+    --light-gray: #999999;
+    --dark-grey: #262626;
+    --eerie-black: #1A1A1A;
+    --green-matcha: #6F9827;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--light-gray);
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+
+body {
+    background-color: var(--charcoal-black) !important;
+}
+
+#started-ai-section {
+    padding: 100px 0;
+    background: linear-gradient(to left, #26262600 0%,  #262626 100%);
+}
+
+#started-ai-section .container h1 {
+    font-family: 600;
+    font-size: 36px;
+    color: white;
+}
+
+
+footer {
+    padding-top: 100px;
+}
+
+footer .content-footer .container .row div:first-child .logo-plantify h1 {
+    font-size: 28px;
+    padding-left: 10px !important;
+    color: white;
+    font-weight: 600;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback {
+    background-color: var(--charcoal-black);
+    border: 1px solid var(--dark-grey);
+    height: max-content !important;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback form div span,
+footer .content-footer .container .row div:first-child .send-feedback form div input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+footer .content-footer .container .row div:first-child .send-feedback form div input::placeholder,
+footer .content-footer .container .row div:first-child .send-feedback form div input {
+    color: var(--light-gray) !important;
+}
+
+footer .content-footer .container .row div:last-child .row .col-lg-2 p {
+    color: white !important;
+}
+
+footer .copyright {
+    background-color: var(--eerie-black);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer .copyright .container .row .col-6 p {
+    color: white;
+}
