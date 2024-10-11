@@ -33,76 +33,66 @@ body {
 }
 
 /*** Navbar ***/
-
-
+.navbar .navbar-nav {
+  display: flex;
+  gap: 15px; 
+}
 .navbar .navbar-nav .nav-link {
-    margin-right: 30px;
-    padding: 25px 0;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    outline: none;
-    transition: background-color 0.3s, color 0.3s;
+  padding: 10px 15px !important;; 
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  border: 2px solid transparent; 
 }
-
 .nav-item {
-    white-space: nowrap;
+  white-space: nowrap;
 }
-
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     background-color: #141414;
     color: white;
-    border-radius: 5px;
-    margin-top: 1rem;
-    height: 0px;
-    width: 5rem;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    transition: all;
-
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid var(--light-gray);
+    
 }
-
 
 .contact-button {
-    display: flex;
-    justify-content: center;
-    margin-right: 10rem;
-    margin-left: 0;
-    background: #141414;
-    height: 45px;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10rem;
+  margin-left: 0;
+  background: #141414;
+  height: 40px;
+  border-radius: 10px;
 }
-
 .contact-button:hover {
-    background-color: var(--green-matcha);
-    color: white;
-    border-color: #6c757d;
-    transition: all 0.3s ease;
+  background-color: var(--green-matcha);
+  color: white;
+  border-color: #6c757d;
+  transition: all 0.3s ease;
 }
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 75px;
+  height: 75px;
 }
 
 .navbar .navbar-nav .nav-link {
-    color: var(--light);
-    font-weight: 500;
+  color: var(--light);
+  font-weight: 500;
 }
 
 .navbar.sticky-top {
-    top: -100px;
-    transition: .5s;
+  top: -100px;
+  transition: 0.5s;
 }
 
-
 .navbar-toggler {
-    border-color: white;
+  border-color: white;
 }
 
 .navbar-toggler-icon {
