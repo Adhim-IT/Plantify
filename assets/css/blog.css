@@ -536,9 +536,13 @@ body {
   font-size: 36px;
 }
 
-#join-plantify-section .container .row div:last-child a.btn-primary {
+#join-plantify-section .container .row div:last-child a.btn {
   background-color: var(--green-matcha) !important;
-  border: 2px solid var(--green-matcha);
+  color: white;
+}
+#join-plantify-section .container .row div:last-child a.btn:hover {
+  background-color: var(--dark-grey) !important;
+  color: white;
 }
 
 @media (max-width: 768px) {
