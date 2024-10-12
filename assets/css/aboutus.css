@@ -33,13 +33,12 @@ body {
 }
 
 /* Navbar */
-/*** Navbar ***/
 .navbar .navbar-nav {
     display: flex;
     gap: 15px; 
   }
   .navbar .navbar-nav .nav-link {
-    padding: 10px 15px; 
+    padding: 10px 15px !important;; 
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
@@ -52,12 +51,13 @@ body {
     white-space: nowrap;
   }
   
-  .navbar .navbar-nav .nav-link:hover,
+  .navbar .navbar-nav .nav-link:hover, 
   .navbar .navbar-nav .nav-link.active {
-    background-color: #141414;
-    color: white;
-    transition: background-color 0.3s, color 0.3s;
-    border: 2px solid var(--light-gray);
+      background-color: #141414;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+      border: 2px solid var(--light-gray);
+      
   }
   
   .contact-button {
@@ -72,7 +72,6 @@ body {
   .contact-button:hover {
     background-color: var(--green-matcha);
     color: white;
-    
     border-color: #6c757d;
     transition: all 0.3s ease;
   }
@@ -92,7 +91,6 @@ body {
   .navbar .navbar-nav .nav-link {
     color: var(--light);
     font-weight: 500;
-    margin-right: 0;
   }
   
   .navbar.sticky-top {
