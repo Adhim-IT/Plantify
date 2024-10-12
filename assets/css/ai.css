@@ -548,6 +548,23 @@ footer .copyright .container .row .col-6 p {
     main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group h5 {
         font-size: 18px;
     }
+    footer .content-footer .container .row .col-8 {
+        width: 80%;
+    }
+
+    footer .copyright .container .row {
+        display: block;
+    }
+
+    footer .copyright .container .row .col-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+    }
+
+    footer .copyright .container .row .col-6:last-child {
+        margin-top: 1rem;
+    }
 
 }
 
