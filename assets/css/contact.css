@@ -219,7 +219,6 @@ body {
 
 /* main-contact */
 .main-contact {
-  width: 100%;
   display: flex;
   justify-content: start;
   padding-left: 9.5rem;
