@@ -31,6 +31,10 @@ body {
   z-index: 99;
 }
 
+.btn:focus{
+  box-shadow: none;
+}
+
 /*** Navbar ***/
 /*** Navbar ***/
 .navbar .navbar-nav {
