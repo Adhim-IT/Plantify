@@ -136,11 +136,12 @@ body {
   }
   .navbar .navbar-nav .nav-link:hover,
   .navbar .navbar-nav .nav-link.active {
-    width: 100%;
+    width: 50%;
     background-color: #141414;
     color: white;
     border-radius: 5px;
     height: auto;
+    margin: auto;
   }
   .navbar .navbar-nav {
     border-top: 1px solid #eeeeee;
