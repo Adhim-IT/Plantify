@@ -196,6 +196,7 @@ body {
 /* end deskripsi */
 
 
+
 /* section modal  */
 
 main #modal-section {
@@ -371,6 +372,13 @@ footer .copyright .container .row .col-6 p {
 
 .b-r {
     border-right: 2px solid #262626;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
 }
 
 @media screen and (max-width: 480px) {

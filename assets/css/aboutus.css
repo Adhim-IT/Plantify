@@ -35,32 +35,35 @@ body {
 /* Navbar */
 .navbar .navbar-nav {
     display: flex;
-    gap: 15px; 
-  }
-  .navbar .navbar-nav .nav-link {
-    padding: 10px 15px !important;; 
+    gap: 15px;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 10px 15px !important;
+    ;
     color: #ffffff;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
-    border: 2px solid transparent; 
-  }
-  .nav-item {
+    border: 2px solid transparent;
+}
+
+.nav-item {
     white-space: nowrap;
-  }
-  
-  .navbar .navbar-nav .nav-link:hover, 
-  .navbar .navbar-nav .nav-link.active {
-      background-color: #141414;
-      color: white;
-      transition: background-color 0.3s, color 0.3s;
-      border: 2px solid var(--light-gray);
-      
-  }
-  
-  .contact-button {
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    background-color: #141414;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid var(--light-gray);
+
+}
+
+.contact-button {
     display: flex;
     justify-content: center;
     margin-right: 10rem;
@@ -68,83 +71,92 @@ body {
     background: #141414;
     height: 40px;
     border-radius: 10px;
-  }
-  .contact-button:hover {
+}
+
+.contact-button:hover {
     background-color: var(--green-matcha);
     color: white;
     border-color: #6c757d;
     transition: all 0.3s ease;
-  }
-  
-  .navbar .navbar-brand,
-  .navbar a.btn {
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
     height: 75px;
-  }
-  .icon {
+}
+
+.icon {
     font-size: 40px;
-  }
-  .icon img{
+}
+
+.icon img {
     width: 40px;
     height: 40px;
-  }
-  
-  .navbar .navbar-nav .nav-link {
+}
+
+.navbar .navbar-nav .nav-link {
     color: var(--light);
     font-weight: 500;
-  }
-  
-  .navbar.sticky-top {
+}
+
+.navbar.sticky-top {
     top: -100px;
     transition: 0.5s;
-  }
-  
-  .navbar-toggler {
+}
+
+.navbar-toggler {
     border-color: white;
-  }
-  
-  .navbar-toggler-icon {
+}
+
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M6 6l18 18M6 24L24 6'/%3E%3C/svg%3E");
-  }
-  
-  .navbar-toggler.collapsed .navbar-toggler-icon {
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
-  
-  @media (max-width: 991.98px) {
+}
+
+@media (max-width: 991.98px) {
     .navbar {
-      margin: auto;
+        margin: auto;
     }
+
     .navbar .navbar-nav .nav-link {
-      color: white;
-      margin-right: 0;
-      padding: 10px 0;
+        color: white;
+        margin-right: 0;
+        padding: 10px 0;
     }
+
     .navbar .navbar-nav .nav-link:hover,
-  .navbar .navbar-nav .nav-link.active {
-    width: 50%;
-    background-color: #141414;
-    color: white;
-    border-radius: 5px;
-    height: auto;
-    margin: auto;
-  }
+    .navbar .navbar-nav .nav-link.active {
+        width: 50%;
+        background-color: #141414;
+        color: white;
+        border-radius: 5px;
+        height: auto;
+        margin: auto;
+    }
+
     .navbar .navbar-nav {
-      border-top: 1px solid #eeeeee;
+        border-top: 1px solid #eeeeee;
     }
+
     .icon {
-      font-size: 30px;
+        font-size: 30px;
     }
-    .icon img{
-      width: 30px;
-      height: 30px;
+
+    .icon img {
+        width: 30px;
+        height: 30px;
     }
+
     .contact-button {
-      margin-right: auto;
-      margin-left: auto;
-      width: 40%;
-      margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        margin-bottom: 10px;
     }
-  }
+}
 
 /* hero section style */
 
@@ -353,13 +365,13 @@ main #join-plantify-section .container .row div:last-child a.btn {
     background-color: var(--green-matcha) !important;
     border: 1px solid var(--green-matcha);
     color: white;
-  }
+}
 
 main #join-plantify-section .container .row div:last-child a.btn:hover {
     background-color: var(--dark-grey) !important;
     border: 1px solid var(--dark-grey);
     color: white;
-  }
+}
 
 /* end join plantify section style*/
 
@@ -372,7 +384,7 @@ footer .content-footer .container .row div:first-child .logo-plantify h1 {
     padding-left: 10px !important;
     color: white;
     font-weight: 600;
-  }
+}
 
 footer .content-footer .container .row div:first-child .send-feedback {
     background-color: var(--charcoal-black);
@@ -405,6 +417,13 @@ footer .copyright {
 
 footer .copyright .container .row .col-6 p {
     color: white;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
 }
 
 

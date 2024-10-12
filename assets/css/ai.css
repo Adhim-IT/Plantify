@@ -419,6 +419,13 @@ footer .copyright .container .row .col-6 p {
     color: white;
 }
 
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+}
+
 @media screen and (max-width: 480px) {
 
     #items-width {
