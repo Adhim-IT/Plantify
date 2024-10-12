@@ -553,6 +553,7 @@
                     totalLengthItems = Math.ceil(totalItems / nomorPembagian); // Update total number of slides
                     totalClick = 1; // Reset the counter to the first slide
                     updateSlideCounter(); // Update the counter display and buttons
+                    totalSlidesHtml.innerHTML = `01`; 
                 } else {
                     document.getElementById('parent-items').innerHTML = ''; // Remove all items
                     totalItems = 0; // Reset total items count

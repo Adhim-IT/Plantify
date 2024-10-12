@@ -421,6 +421,10 @@ footer .copyright .container .row .col-6 p {
 
 @media screen and (max-width: 480px) {
 
+    #items-width {
+        width: 22rem;
+        margin-left: -20px !important;
+    }
 
     main #input-recomended-section {
         position: static !important;
