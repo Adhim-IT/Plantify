@@ -162,7 +162,7 @@ body {
 /* heading */
 .heading {
     height: 55vh;
-    background-image: url(/assets/img/blog/ai.png);
+    background-image: url(/assets/img/blog/heading.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -182,7 +182,7 @@ body {
     .heading{
         align-items: flex-end;
         height: 40vh;
-        background-image: url(/assets/img/artikel/ai.png);
+        background-image: url(/assets/img/artikel/sub-container.png);
     }
     .main-heading{
         font-size: 25px; 
@@ -333,6 +333,7 @@ body {
 }
 
 #description-product-section .list-container {
+  font-size: 15px;
     border: 2px solid #1A1A1A;
     padding: 10px;
     border-radius: 10px;
@@ -362,8 +363,9 @@ body {
   display: none;
 }
 #description-product-section .list-container1 {
+  font-size: 15px;
   border: 2px solid #1A1A1A;
-  padding: 10px;
+  padding: 1px;
   border-radius: 10px;
   background-color: #1A1A1A;
   margin-top: 10px;

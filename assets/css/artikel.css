@@ -208,13 +208,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 4rem;
+  
   margin-bottom: 4rem;
 }
 
 .sub-container .button {
   margin-bottom: 2rem;
-  margin-left: 42rem;
+  margin-left: 37rem;
 }
 .btn:hover {
   background-color: var(--green-matcha);
