@@ -6,6 +6,7 @@
     --dark-grey: #262626;
     --eerie-black: #1A1A1A;
     --green-matcha: #6F9827;
+    --color-shadow: #191919;
 }
 
 * {
@@ -21,15 +22,260 @@ body {
     background-color: var(--charcoal-black) !important;
 }
 
-#started-ai-section {
-    padding: 100px 0;
-    background: linear-gradient(to left, #26262600 0%,  #262626 100%);
+main #started-ai-section {
+    padding: 140px 0;
+    background-color: var(--charcoal-black);
+    border-bottom: 2px solid var(--dark-grey);
 }
 
-#started-ai-section .container h1 {
-    font-family: 600;
+main #started-ai-section .container h1 {
+    font-weight: 600;
     font-size: 36px;
     color: white;
+}
+
+main #input-recomended-section {
+    position: absolute;
+    top: 360px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #input-recomended-section .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #input-recomended-section .search-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #input-recomended-section .search-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: var(--charcoal-black);
+    border: 2px solid var(--dark-grey);
+    box-shadow: 0px 0px 0px 10px var(--color-shadow);
+    border-radius: 10px;
+    padding: 10px;
+    /* Atur lebar agar tetap di tengah */
+}
+
+main #input-recomended-section .search-group input,
+main #input-recomended-section .search-group input::placeholder {
+
+    background-color: transparent !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: white var(--dark-grey);
+}
+
+main #input-recomended-section .search-group button {
+    background-color: var(--green-matcha);
+    border: none !important;
+}
+
+main #input-recomended-section .search-group-sec {
+    box-shadow: 0px 0px 0px 10px var(--color-shadow);
+    border-radius: 10px;
+    background-color: transparent !important;
+}
+
+main #input-recomended-section .search-group-sec {
+    width: 90%;
+    /* Sesuaikan lebar agar di tengah */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #input-recomended-section .search-group-sec .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main #input-recomended-section .row .col-xl-3 {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-shadow) !important;
+    /* Berikan padding antar kolom */
+}
+
+main #input-recomended-section .row .col-xl-3 input {
+    border: 1px solid var(--dark-grey) !important;
+}
+
+main #input-recomended-section .row .col-xl-3 input,
+main #input-recomended-section .row .col-xl-3 input::placeholder {
+    background-color: var(--charcoal-black) !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white var(--dark-grey);
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.white-filter {
+    filter: brightness(0) invert(1);
+}
+
+main #input-recomended-section .row .col-xl-3 select {
+    width: 100%;
+    background-color: var(--charcoal-black) !important;
+    border: 2px solid var(--dark-grey) !important;
+    box-shadow: none;
+    color: var(--light-gray) !important;
+}
+
+main #input-recomended-section .row .col-xl-3 .form-select option {
+    background-color: var(--charcoal-black);
+    border: 2px solid var(--dark-grey);
+    color: var(--light-gray);
+}
+
+
+main #input-recomended-section .row .col-xl-3 .form-select option:hover,
+main #input-recomended-section .row .col-xl-3 select:hover {
+    color: white;
+    background-color: var(--charcoal-black) !important;
+    outline: none !important;
+
+}
+
+main #input-recomended-section .row .form-control {
+    width: 100%;
+}
+
+
+main #recomended-items-section {
+    padding: 100px 0 !important;
+    padding-bottom: 40px !important;
+}
+
+main #recomended-items-section .container h1 {
+    color: white;
+    font-weight: 600;
+}
+
+main #recomended-items-section .container img.bintang {
+    width: 52px;
+    position: relative;
+    right: 12px;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card {
+    background-color: var(--charcoal-black) !important;
+    border-color: var(--dark-grey);
+    padding: 20px;
+    width: 96%;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-header img {
+    height: 240px !important;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group h5 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group p {
+    color: white;
+    font-size: 12px;
+    border: 1px solid var(--dark-grey);
+    background-color: var(--eerie-black);
+    padding: 4px 6px !important;
+    border-radius: 10px;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .description p {
+    color: var(--light-gray);
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-footer .harga h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-footer a {
+    background-color: var(--green-matcha);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+main #recomended-items-section .container .btn-previus-next {
+    margin-top: 40px !important;
+    border-top: 2px solid var(--dark-grey);
+    padding-top: 20px;
+}
+
+main #recomended-items-section .container .btn-previus-next button,
+main #recomended-items-section .container .btn-previus-next button {
+    background-color: var(--charcoal-black);
+    border: 1px solid var(--dark-grey) !important;
+    padding: 10px !important;
+    border-radius: 60px !important;
+}
+
+.btn-click-active {
+    background-color: var(--eerie-black) !important;
+    border: 1px solid var(--dark-grey) !important;
+}
+
+.owl-carousel .owl-nav,
+.owl-theme .owl-dots {
+    display: none !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+/* join plantify section style*/
+main #join-plantify-section {
+    height: max-content;
+    padding: 40px 0;
+    background-image: url(../img/bg-images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #join-plantify-section .container .row div:first-child h1.title {
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 36px;
+}
+
+main #join-plantify-section {
+    margin-top: 60px;
+}
+
+main #join-plantify-section .container .row div:last-child a.btn-primary {
+    background-color: var(--green-matcha) !important;
+    border: 2px solid var(--green-matcha);
 }
 
 
@@ -75,4 +321,75 @@ footer .copyright {
 
 footer .copyright .container .row .col-6 p {
     color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    main #started-ai-section .container h1 {
+        font-size: 24px;
+    }
+
+    main #started-ai-section,
+    main #recomended-items-section,
+    main #join-plantify-section {
+        padding: 30px 30px !important;
+        margin: 0 !important;
+    }
+
+    main #join-plantify-section .container .row div:first-child h1.title {
+        font-size: 24px !important;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-footer a {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group p {
+        font-size: 8px;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 576px) {
+
+    main #started-ai-section .container h1 {
+        font-size: 24px;
+    }
+
+    main #started-ai-section,
+    main #recomended-items-section,
+    main #join-plantify-section {
+        padding: 30px 30px !important;
+        margin: 0 !important;
+    }
+
+    main #join-plantify-section .container .row div:first-child h1.title {
+        font-size: 24px !important;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-footer a {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group p {
+        font-size: 8px;
+    }
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card .card-body .title-group h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card  {
+        width: 66%;
+    }
 }
