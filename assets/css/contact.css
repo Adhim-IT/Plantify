@@ -28,6 +28,10 @@ body {
   right: 45px;
   bottom: 45px;
 }
+.btn:focus{
+  box-shadow: none !important;
+  outline: none !important;
+}
 
 /*** Navbar ***/
 .navbar .navbar-nav {
@@ -71,12 +75,17 @@ body {
     justify-content: center;
     margin-right: 10rem;
     margin-left: auto;
-    background: #141414;
     height: 40px;
     border-radius: 10px;
     border-color: var(--light-gray);
   }
   .contact-button:hover{
+    background-color: var(--green-matcha);
+    color: white;
+    border-color: #6c757d;
+    transition: all 0.3s ease;
+  }
+  .contact-button .active{
     background-color: var(--green-matcha);
     color: white;
     border-color: #6c757d;
@@ -575,6 +584,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #join-plantify-section{
+    padding: 32px !important;
+  }
   #join-plantify-section .container .row div:first-child h1.title {
     font-size: 24px;
   }
@@ -605,6 +617,10 @@ footer .content-footer .container .row div:first-child .send-feedback {
 }
 
 @media (max-width: 991.98px) {
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
   footer .content-footer .container .row div:first-child .logo-plantify h1 {
     font-size: 20px;
     padding-left: 10px !important;
@@ -615,8 +631,32 @@ footer .content-footer .container .row div:first-child .send-feedback {
     width: 40px;
     height: 30px;
     padding-left: 10px;
-    
   }
+  footer {
+    padding-top: 80px !important;
+  }
+
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
+  footer .content-footer .container .row .col-8 {
+    width: 80%;
+}
+
+footer .copyright .container .row {
+    display: block;
+}
+
+footer .copyright .container .row .col-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+
+footer .copyright .container .row .col-6:last-child {
+    margin-top: 1rem;
+}
 }
 
 footer

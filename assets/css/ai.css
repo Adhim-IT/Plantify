@@ -14,7 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--light-gray);
-    font-family: 'Urbanist', sans-serif !important;
+    font-family: 'Urbanist', sans-serif;
 }
 
 
@@ -55,6 +55,22 @@ body {
     color: white;
     transition: background-color 0.3s, color 0.3s;
     border: 2px solid var(--light-gray);
+}
+.contact-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 10rem;
+    margin-left: 0;
+    background: #141414;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.contact-button:hover {
+    background-color: var(--green-matcha);
+    color: white;
+    border-color: #6c757d;
+    transition: all 0.3s ease;
 }
 
 .icon {
@@ -110,7 +126,47 @@ body {
 .navbar-toggler.collapsed .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+@media (max-width: 991.98px) {
+    .navbar {
+        margin: auto;
+    }
 
+    .navbar .navbar-nav .nav-link {
+        color: white;
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav .nav-link:hover,
+    .navbar .navbar-nav .nav-link.active {
+        width: 50%;
+        background-color: #141414;
+        color: white;
+        border-radius: 5px;
+        height: auto;
+        margin: auto;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #eeeeee;
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact-button {
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+}
 main #started-ai-section {
     padding: 140px 0;
     background-color: var(--charcoal-black);

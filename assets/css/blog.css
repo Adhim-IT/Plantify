@@ -183,10 +183,12 @@ body {
         align-items: flex-end;
         height: 40vh;
         background-image: url(/assets/img/artikel/sub-container.png);
+        
     }
     .main-heading{
-        font-size: 25px; 
-        padding-top: 10rem;
+        font-size: 22px; 
+        padding-top: 32px !important; 
+        
     }
 }
 
@@ -263,6 +265,7 @@ body {
   @media (max-width: 767px) {
     .content1 {
       width: 90%;
+      padding: 32px !important;
     }
     .container3 .button2 {
         display: block;
@@ -357,6 +360,11 @@ body {
     background-color: var(--charcoal-black);
     padding: 40px;
     
+}
+@media (max-width: 768px) {
+  #description-product-section  {
+    padding: 32px !important;    
+  }
 }
 
 .list-hide{
@@ -515,6 +523,9 @@ body {
   }
   
   @media (max-width: 768px) {
+    #join-plantify-section{
+      padding: 32px !important;
+    }
     #join-plantify-section .container .row div:first-child h1.title {
       font-size: 24px;
       
@@ -575,6 +586,10 @@ footer .content-footer .container .row div:first-child .send-feedback {
   height: max-content !important;
 }
 @media (max-width: 991.98px) {
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
   footer .content-footer .container .row div:first-child .logo-plantify h1 {
     font-size: 20px;
     padding-left: 10px !important;
@@ -585,8 +600,32 @@ footer .content-footer .container .row div:first-child .send-feedback {
     width: 40px;
     height: 30px;
     padding-left: 10px;
-    
   }
+  footer {
+    padding-top: 80px !important;
+  }
+
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
+  footer .content-footer .container .row .col-8 {
+    width: 80%;
+}
+
+footer .copyright .container .row {
+    display: block;
+}
+
+footer .copyright .container .row .col-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+
+footer .copyright .container .row .col-6:last-child {
+    margin-top: 1rem;
+}
 }
 footer
   .content-footer

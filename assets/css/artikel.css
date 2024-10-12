@@ -212,6 +212,10 @@ body {
   margin-bottom: 4rem;
 }
 
+.sub-container .title {
+  font-size: 24px;
+}
+
 .sub-container .button {
   margin-bottom: 2rem;
   margin-left: 37rem;
@@ -257,7 +261,11 @@ body {
     .sub-container {
       margin-top: 2rem;
       margin-bottom: 2rem;
+      padding: 32px !important;
     }
+    .sub-container .title {
+      font-size: 20px;
+      }
     .sub-container .button {
       margin-top: 2rem;
       margin-bottom: 2rem;
@@ -324,8 +332,12 @@ body {
     .content1 {
       width: 90%;
     }
+    .container3{
+      padding: 32px !important;
+    }
     .container3 .button2 {
         display: block;
+         
         margin-left: 4rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -473,10 +485,16 @@ body {
   line-height: 1;
   color: #666;
 }
+@media (max-width: 767px) {
+  .news {
+    padding: 32px !important;
+  }
+}
 
 
 
 #join-plantify-section1 {
+
     height: max-content;
     padding: 40px 0;
     background-color: #1A1A1A;
@@ -512,6 +530,9 @@ body {
   }
   
   @media (max-width: 768px) {
+    #join-plantify-section1{
+      padding: 32px !important;
+    }
     #join-plantify-section1 .container .row div:first-child h1.title {
       font-size: 24px;
     }
@@ -571,6 +592,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #join-plantify-section{
+    padding: 32px !important;
+  }
   #join-plantify-section .container .row div:first-child h1.title {
     font-size: 24px;
   }
@@ -601,6 +625,10 @@ footer .content-footer .container .row div:first-child .send-feedback {
   height: max-content !important;
 }
 @media (max-width: 991.98px) {
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
   footer .content-footer .container .row div:first-child .logo-plantify h1 {
     font-size: 20px;
     padding-left: 10px !important;
@@ -611,8 +639,32 @@ footer .content-footer .container .row div:first-child .send-feedback {
     width: 40px;
     height: 30px;
     padding-left: 10px;
-    
   }
+  footer {
+    padding-top: 80px !important;
+  }
+
+  footer .content-footer,
+  footer .copyright {
+    padding: 32px !important;
+  }
+  footer .content-footer .container .row .col-8 {
+    width: 80%;
+}
+
+footer .copyright .container .row {
+    display: block;
+}
+
+footer .copyright .container .row .col-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+}
+
+footer .copyright .container .row .col-6:last-child {
+    margin-top: 1rem;
+}
 }
 footer
   .content-footer
