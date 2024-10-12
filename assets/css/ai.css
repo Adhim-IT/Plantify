@@ -22,6 +22,95 @@ body {
     background-color: var(--charcoal-black) !important;
 }
 
+
+/*** Navbar ***/
+.navbar .navbar-nav {
+    display: flex;
+    margin-right: 1px;
+    gap: 15px;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 10px 15px !important;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.nav-item {
+    white-space: nowrap;
+}
+
+#items-width {
+    width: 32rem;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    background-color: #141414;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    border: 2px solid var(--light-gray);
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 10rem;
+    margin-left: auto;
+    background: #141414;
+    height: 40px;
+    border-radius: 10px;
+    border-color: var(--light-gray);
+}
+
+.contact-button:hover {
+    background-color: var(--green-matcha);
+    color: white;
+    border-color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 75px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--light);
+    font-weight: 500;
+}
+
+.navbar.sticky-top {
+    top: -100px;
+    transition: 0.5s;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M6 6l18 18M6 24L24 6'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 main #started-ai-section {
     padding: 140px 0;
     background-color: var(--charcoal-black);
@@ -36,7 +125,7 @@ main #started-ai-section .container h1 {
 
 main #input-recomended-section {
     position: absolute;
-    top: 360px;
+    top: 434px;
     left: 0;
     right: 0;
     display: flex;
@@ -273,9 +362,16 @@ main #join-plantify-section {
     margin-top: 60px;
 }
 
-main #join-plantify-section .container .row div:last-child a.btn-primary {
+main #join-plantify-section .container .row div:last-child a.btn {
     background-color: var(--green-matcha) !important;
-    border: 2px solid var(--green-matcha);
+    border: 1px solid var(--green-matcha);
+    color: white;
+}
+
+main #join-plantify-section .container .row div:last-child a.btn:hover {
+    background-color: var(--dark-grey) !important;
+    border: 1px solid var(--dark-grey);
+    color: white;
 }
 
 
@@ -325,6 +421,39 @@ footer .copyright .container .row .col-6 p {
 
 @media screen and (max-width: 480px) {
 
+
+    main #input-recomended-section {
+        position: static !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    main #recomended-items-section {
+        padding: 0px 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    main #input-recomended-section .search-group-sec {
+        box-shadow: none;
+        background-color: var(--charcoal-black) !important;
+        padding: 20px;
+        border: 2px solid var(--dark-grey);
+        margin-top: 40px !important;
+    }
+
+    main #input-recomended-section .row .col-xl-3 {
+        background-color: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 28px !important;
+    }
+
+    footer .content-footer,
+    footer .copyright {
+        padding: 32px !important;
+    }
+
     main #started-ai-section .container h1 {
         font-size: 24px;
     }
@@ -357,6 +486,38 @@ footer .copyright .container .row .col-6 p {
 
 @media screen and (min-width: 481px) and (max-width: 576px) {
 
+    main #input-recomended-section {
+        position: static !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    main #recomended-items-section {
+        padding: 0px 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    main #input-recomended-section .search-group-sec {
+        box-shadow: none;
+        background-color: var(--charcoal-black) !important;
+        padding: 20px;
+        border: 2px solid var(--dark-grey);
+        margin-top: 40px !important;
+    }
+
+    main #input-recomended-section .row .col-xl-3 {
+        background-color: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 28px !important;
+    }
+
+    footer .content-footer,
+    footer .copyright {
+        padding: 32px !important;
+    }
+
     main #started-ai-section .container h1 {
         font-size: 24px;
     }
@@ -387,9 +548,44 @@ footer .copyright .container .row .col-6 p {
 
 }
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    main #input-recomended-section {
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    main #recomended-items-section {
+        padding: 0px 0 !important;
+        padding-bottom: 40px !important;
+    }
+
+    main #input-recomended-section .search-group-sec {
+        box-shadow: none;
+        background-color: var(--charcoal-black) !important;
+        padding: 20px;
+        border: 2px solid var(--dark-grey);
+        margin-top: 40px !important;
+    }
+
+    main #input-recomended-section .row .col-xl-3 {
+        background-color: transparent !important;
+        padding: 0px !important;
+        margin-bottom: 28px !important;
+    }
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 900px) {
 
-    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card  {
+    main #recomended-items-section .container .slider-carousel .owl-carousel .item .card {
         width: 66%;
     }
+
+
+    /* #items-width {
+        width: 30rem;
+    } */
 }

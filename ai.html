@@ -21,9 +21,41 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top p-0 wow fadeIn align-items-center" data-wow-delay="0.1s"
+        style="background-color: #1A1A1A; ">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5 ms-lg-5">
+            <span class="icon">
+                <img src="assets/img/icon.png" alt="Plantify" />
+                <span class="text-white fs-4">Plantify
+                </span>
+        </a>
+        <button class="navbar-toggler me-4 text-white" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="fa fa-bars text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <!-- Wrapper to center the navigation links -->
+            <div class="navbar-nav ms-auto">
+                <div class="navbar-nav p-4 p-lg-0 text-center text">
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="ai.html" class="nav-item nav-link active">AI</a>
+                    <a href="artikel.html" class="nav-item nav-link">Article</a>
+                    <a href="aboutus.html" class="nav-item nav-link">About Us</a>
+                </div>
+            </div>
+            <!-- Right side contact button, centers when screen is small -->
+            <div class="ms-auto  contact-button">
+                <a href="contact.html">
+                    <button type="button" class="btn border-1" style="outline: none; box-shadow: none;">
+                        <span class="text-white">Contact Us</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
     <main>
         <section class="started-ai-section" id="started-ai-section">
             <div class="container">
@@ -38,14 +70,15 @@
             </div>
         </section>
 
-        <section class="d-none input-recomended-section" id="input-recomended-section">
+        <section class="input-recomended-section" id="input-recomended-section">
             <div class="container">
                 <div class="search-parent">
                     <div class="search-group">
                         <input class="form-control me-2" type="search" placeholder="Masukkan perintah..."
-                            aria-label="Search">
+                            aria-label="Search" id="input-search">
                         <button
-                            class="btn btn-outline-success d-flex justify-content-center align-items-center text-white">
+                            class="btn btn-outline-success d-flex justify-content-center align-items-center text-white"
+                            id="btnSearch">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 style="fill: white;">
                                 <path
@@ -69,7 +102,7 @@
                             <input class="form-control" type="search" placeholder="Masukkan Modal" aria-label="Search">
                         </div>
                         <div class="col-md-3 col-xl-3" style="padding-right: 0 !important;">
-                            <select class="form-select form-select-sm" >
+                            <select class="form-select form-select-sm">
                                 <option selected>Pilih metode tanam</option>
                                 <option value="vertikultur">Vertikultur</option>
                                 <option value="hidroponik">Hidroponik</option>
@@ -87,8 +120,8 @@
                 <h1>Rekomendasi Kami</h1>
                 <p>Berikut merupakan rekomendasi dari hasil yang teah kami analisis</p>
                 <div class="slider-carousel mt-5 mt-lg-0">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item d-flex justify-content-center">
+                    <div class="owl-carousel owl-theme" id="parent-items">
+                        <!-- <div class="item d-flex justify-content-center">
                             <div class="card">
                                 <div class="card-header p-0 d-flex justify-content-center align-items-center">
                                     <img src="assets/img/tanam-satu.png" class="card-img-top">
@@ -99,7 +132,7 @@
                                         <p class="m-0 p-0">Sangat Direkomendasikan</p>
                                     </div>
                                     <div class="description mt-4">
-                                        <p>Daun bawang merupakan jenis sayuran dari kelompok bawang yang banyak...</p>
+                                        <p>Daun bawang merupakan jenis sayuran dari kelompok bawang yang banyak...</p>
                                     </div>
                                 </div>
                                 <div
@@ -107,6 +140,56 @@
                                     <div class="harga">
                                         <p class="m-0 p-0">Harga Jual</p>
                                         <h5 class="m-0 p-0">Rp. 28.950/kg</h5>
+                                    </div>
+                                    <a href="ai-detail.html">Lihat Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="item d-flex justify-content-center">
+                            <div class="card">
+                                <div class="card-header p-0 d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/img-items-kentang.png" class="card-img-top">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="title-group mt-3 d-flex justify-content-between align-items-center">
+                                        <h5 class="m-0 p-0">Kentang</h5>
+                                        <p class="m-0 p-0 d-none">Sangat Direkomendasikan</p>
+                                    </div>
+                                    <div class="description mt-4">
+                                        <p>Kentang adalah  tanaman yang memiliki umbi batang yang dapat dimakan dan ...
+                                        </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
+                                    <div class="harga">
+                                        <p class="m-0 p-0">Harga Jual</p>
+                                        <h5 class="m-0 p-0">Rp. 17.907/Kg</h5>
+                                    </div>
+                                    <a href="#">Lihat Selengkapnya</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item d-flex justify-content-center">
+                            <div class="card">
+                                <div class="card-header p-0 d-flex justify-content-center align-items-center">
+                                    <img src="assets/img/img-items-ai.png" class="card-img-top">
+                                </div>
+                                <div class="card-body p-0">
+                                    <div class="title-group mt-3 d-flex justify-content-between align-items-center">
+                                        <h5 class="m-0 p-0">Sawi</h5>
+                                        <p class="m-0 p-0 d-none">Sangat Direkomendasikan</p>
+                                    </div>
+                                    <div class="description mt-4">
+                                        <p>Kubis adalah sayuran yang berlapis-lapis. Dalam kondisi hari diterangi
+                                            matahari...</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
+                                    <div class="harga">
+                                        <p class="m-0 p-0">Harga Jual</p>
+                                        <h5 class="m-0 p-0">Rp. 6.348/Kg</h5>
                                     </div>
                                     <a href="#">Lihat Selengkapnya</a>
                                 </div>
@@ -162,81 +245,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item d-flex justify-content-center">
-                            <div class="card">
-                                <div class="card-header p-0 d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/tanam-satu.png" class="card-img-top">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="title-group mt-3 d-flex justify-content-between align-items-center">
-                                        <h5 class="m-0 p-0">Daun Bawang</h5>
-                                        <p class="m-0 p-0">Sangat Direkomendasikan</p>
-                                    </div>
-                                    <div class="description mt-4">
-                                        <p>Daun bawang merupakan jenis sayuran dari kelompok bawang yang banyak...</p>
-                                    </div>
-                                </div>
-                                <div
-                                    class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
-                                    <div class="harga">
-                                        <p class="m-0 p-0">Harga Jual</p>
-                                        <h5 class="m-0 p-0">Rp. 28.950/kg</h5>
-                                    </div>
-                                    <a href="#">Lihat Selengkapnya</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item d-flex justify-content-center">
-                            <div class="card">
-                                <div class="card-header p-0 d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/img-items-kentang.png" class="card-img-top">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="title-group mt-3 d-flex justify-content-between align-items-center">
-                                        <h5 class="m-0 p-0">Kentang</h5>
-                                        <p class="m-0 p-0 d-none">Sangat Direkomendasikan</p>
-                                    </div>
-                                    <div class="description mt-4">
-                                        <p>Kentang adalah  tanaman yang memiliki umbi batang yang dapat dimakan dan ...
-                                        </p>
-                                    </div>
-                                </div>
-                                <div
-                                    class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
-                                    <div class="harga">
-                                        <p class="m-0 p-0">Harga Jual</p>
-                                        <h5 class="m-0 p-0">Rp. 17.907/Kg</h5>
-                                    </div>
-                                    <a href="#">Lihat Selengkapnya</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item d-flex justify-content-center">
-                            <div class="card">
-                                <div class="card-header p-0 d-flex justify-content-center align-items-center">
-                                    <img src="assets/img/img-items-ai.png" class="card-img-top">
-                                </div>
-                                <div class="card-body p-0">
-                                    <div class="title-group mt-3 d-flex justify-content-between align-items-center">
-                                        <h5 class="m-0 p-0">Sawi</h5>
-                                        <p class="m-0 p-0 d-none">Sangat Direkomendasikan</p>
-                                    </div>
-                                    <div class="description mt-4">
-                                        <p>Kubis adalah sayuran yang berlapis-lapis. Dalam kondisi hari diterangi
-                                            matahari...</p>
-                                    </div>
-                                </div>
-                                <div
-                                    class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
-                                    <div class="harga">
-                                        <p class="m-0 p-0">Harga Jual</p>
-                                        <h5 class="m-0 p-0">Rp. 6.348/Kg</h5>
-                                    </div>
-                                    <a href="#">Lihat Selengkapnya</a>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <div class="btn-previus-next d-flex justify-content-between align-items-center">
@@ -308,9 +316,9 @@
                                     </span>
                                     <input type="text" class="form-control" placeholder="Kirim Masukkan"
                                         aria-describedby="basic-addon1">
-                                    <button class="btn">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                            fill="currentColor" class="bi bi-send-plus-fill" viewBox="0 0 16 16">
+                                    <button class="btn border-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white"
+                                            class="bi bi-send-plus-fill" viewBox="0 0 16 16">
                                             <path
                                                 d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
                                             <path
@@ -338,7 +346,7 @@
                             </div>
                             <div class="col-4 col-sm-3 col-lg-2">
                                 <h5 class="title">AI</h5>
-                                <p class="m-0 p-0 pt-2">Download</p>
+                                <p class="m-0 p-0 pt-2">Get Started</p>
                             </div>
                             <div class="col-4 col-sm-3 col-lg-2 mt-4 mt-sm-0">
                                 <h5 class="title">Article</h5>
@@ -385,6 +393,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- carousel -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -422,7 +440,7 @@
             var totalClick = 1; // Initialize the counter based on the first slide
             var nomorPembagian = 3; // Default value for large screens
             const totalClickHtml = document.getElementById('current-slide');
-            const totalItems = owl.find('.item').length; // Count total items
+            let totalItems = owl.find('.item').length; // Initialize count total items
             const totalSlidesHtml = document.getElementById('total-slides');
             const btnPrevCostum = document.getElementById('btn-prev');
             const btnNextCostum = document.getElementById('btn-next'); // Ensure correct ID
@@ -485,8 +503,66 @@
                 owl.trigger('prev.owl.carousel', [300]); // Trigger the previous slide
                 updateSlideCounter();
             });
+
+            // Function to disable buttons and update counter when all items are deleted
+            function disableButtonsAndUpdateCounter() {
+                totalClickHtml.innerHTML = '00';
+                totalSlidesHtml.innerHTML = '00';
+                btnPrevCostum.disabled = true;
+                btnNextCostum.disabled = true;
+                btnPrevCostum.classList.remove('btn-click-active');
+                btnNextCostum.classList.remove('btn-click-active');
+            }
+
+            // Add click event for search button to clear items and disable buttons
+            const searchItems = document.getElementById('input-search');
+            const btnItems = document.getElementById('btnSearch');
+
+            btnItems.addEventListener('click', () => {
+                const searchValue = searchItems.value.toLowerCase();
+
+                if (searchValue === "bawang") {
+                    const newItem = `
+                <div class="item d-flex justify-content-center" id="items-width">
+                    <div class="card">
+                        <div class="card-header p-0 d-flex justify-content-center align-items-center">
+                            <img src="assets/img/tanam-satu.png" class="card-img-top">
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="title-group mt-3 d-flex justify-content-between align-items-center">
+                                <h5 class="m-0 p-0">Daun Bawang</h5>
+                                <p class="m-0 p-0">Sangat Direkomendasikan</p>
+                            </div>
+                            <div class="description mt-4">
+                                <p>Daun bawang merupakan jenis sayuran dari kelompok bawang yang banyak...</p>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 d-flex justify-content-between align-items-center mt-2 pb-3">
+                            <div class="harga">
+                                <p class="m-0 p-0">Harga Jual</p>
+                                <h5 class="m-0 p-0">Rp. 28.950/kg</h5>
+                            </div>
+                            <a href="ai-detail.html">Lihat Selengkapnya</a>
+                        </div>
+                    </div>
+                </div>`;
+
+                    document.getElementById('parent-items').innerHTML = newItem; // Clear and add only the new item
+
+                    totalItems = 1; // Set total items to 1 since we are showing one item only
+                    totalLengthItems = Math.ceil(totalItems / nomorPembagian); // Update total number of slides
+                    totalClick = 1; // Reset the counter to the first slide
+                    updateSlideCounter(); // Update the counter display and buttons
+                } else {
+                    document.getElementById('parent-items').innerHTML = ''; // Remove all items
+                    totalItems = 0; // Reset total items count
+                    totalLengthItems = 0; // Reset total slides count
+                    disableButtonsAndUpdateCounter(); // Disable buttons and update counter
+                }
+            });
         });
     </script>
+
 
 
 </body>

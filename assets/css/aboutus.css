@@ -303,7 +303,7 @@ main #founder-plantify-section .container .row .col-lg-4 .card .img-ig {
     position: absolute;
     left: 50%;
     transform: translateX(-45%);
-    top: 175px;
+    top: 315px;
 }
 
 main #founder-plantify-section .container .row .col-lg-4 .card .card-body h5 {
@@ -351,11 +351,13 @@ main #join-plantify-section .container .row div:first-child h1.title {
 
 main #join-plantify-section .container .row div:last-child a.btn {
     background-color: var(--green-matcha) !important;
-    border: 1px solid #6c757d;
+    border: 1px solid var(--green-matcha);
     color: white;
   }
+
 main #join-plantify-section .container .row div:last-child a.btn:hover {
     background-color: var(--dark-grey) !important;
+    border: 1px solid var(--dark-grey);
     color: white;
   }
 
@@ -621,7 +623,7 @@ footer .copyright .container .row .col-6 p {
         position: absolute;
         left: 50%;
         transform: translateX(-45%);
-        top: 206px;
+        top: 370px;
     }
 
     main #founder-plantify-section .container .row .col-lg-4 .card .card-header {
@@ -658,7 +660,7 @@ footer .copyright .container .row .col-6 p {
         position: absolute;
         left: 50%;
         transform: translateX(-45%);
-        top: 162px;
+        top: 296px;
     }
 
     main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
@@ -679,7 +681,7 @@ footer .copyright .container .row .col-6 p {
         position: absolute;
         left: 50%;
         transform: translateX(-45%);
-        top: 140px;
+        top: 254px;
     }
 
     main #founder-plantify-section .container .row .col-lg-4 .card .card-footer form .send-message {
@@ -700,6 +702,6 @@ footer .copyright .container .row .col-6 p {
         position: absolute;
         left: 50%;
         transform: translateX(-45%);
-        top: 204px;
+        top: 377px;
     }
 }
